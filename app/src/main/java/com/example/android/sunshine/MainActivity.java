@@ -49,13 +49,13 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i(LOG_TAG, " Paused Visible");
+        Log.i(LOG_TAG, " Paused Partially Visible");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i(LOG_TAG, " Stop Background");
+        Log.i(LOG_TAG, " Stopped Background");
     }
 
     @Override
